@@ -103,3 +103,7 @@ img.displayed {
   color: #6fbcfb;
   cursor: pointer;
 }
+.open-source {
+  text-align: center;
+  font-size: 12px;
+}
