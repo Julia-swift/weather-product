@@ -3,7 +3,6 @@ body{
 }
 
 h1 {
-  
   color: #7c7c7c;
   font-size: 24px;
   line-height: 28px;
@@ -85,8 +84,8 @@ img.displayed {
 }
 
 .weather-image {
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
   margin-right:10px;
   margin-left: 20px;
 }
