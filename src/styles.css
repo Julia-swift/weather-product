@@ -80,7 +80,7 @@ img.displayed {
 .weather-temperature.units {
   position: relative;
   font-size: 16px;
-  top: -30px;
+  top: -28px;
 }
 
 .weather-image {
