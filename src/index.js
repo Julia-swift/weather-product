@@ -28,21 +28,22 @@ currentDay.innerHTML = `${weekDay}`;
 let currentTime = document.querySelector("#current-time");
 currentTime.innerHTML = `${time}`;
 
-//Celsius
+//Celsius and Fahrenheit
 
 function showFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temp");
-  let temperature = temperatureElement.innerHTML;
-  temperature = Number(temperature);
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function showCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temp");
-  temperatureElement.innerHTML = 19;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
+
+let celsiusTemperature = null;
 
 let fahrenheit = document.querySelector("#fahrenheit");
 fahrenheit.addEventListener("click", showFahrenheit);
@@ -50,11 +51,12 @@ fahrenheit.addEventListener("click", showFahrenheit);
 let celsius = document.querySelector("#celsius");
 celsius.addEventListener("click", showCelsius);
 
-//
+// Day Weather Condition
 
 function weatherCondition(response) {
   console.log(response.data);
   document.querySelector("#currentCity").innerHTML = response.data.name;
+  celsiusTemperature = response.data.main.temp;
   document.querySelector("#temp").innerHTML = Math.round(
     response.data.main.temp
   );
