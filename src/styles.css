@@ -73,7 +73,7 @@ img.displayed {
 }
 .temperature {
   color: rgb(33, 33, 33);
-  font-size: 60px;
+  font-size: 54px;
   font-weight: 450;
   line-height: 1;
 }
@@ -83,10 +83,10 @@ img.displayed {
   top: -32px;
 }
 
-.main-weather-image {
+.weather-image {
   width: 64px;
   height: 64px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-left: 20px;
 }
 
