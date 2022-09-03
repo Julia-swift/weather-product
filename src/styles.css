@@ -84,11 +84,11 @@ img.displayed {
   color: #7c7c7c;
 }
 
-.weather-temperature.acive{
+.weather-temperature.active{
   color:rgb(33,33,33);
   cursor:default;
 }
-.weather-temperature.acive:hover{
+.weather-temperature.active:hover{
   text-decoration:none;
  }
 
