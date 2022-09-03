@@ -84,13 +84,16 @@ img.displayed {
   color: #7c7c7c;
 }
 
-.weather-temperature.active{
-  color:rgb(33,33,33);
-  cursor:default;
+a {
+  text-decoration: none;
+  color: black;
+  cursor:default
 }
-.weather-temperature.active:hover{
+a:hover{
   text-decoration:none;
- }
+  color:#7c7c7c;
+  font-size:20px;
+}
 
 .weather-image {
   width: 64px;
