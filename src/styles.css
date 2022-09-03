@@ -84,16 +84,12 @@ img.displayed {
   color: #7c7c7c;
 }
 
-a {
+active {
   text-decoration: none;
   color: black;
   cursor:default
 }
-a:hover{
-  text-decoration:none;
-  color:#7c7c7c;
-  font-size:20px;
-}
+
 .open{
 color:blue;}
 
