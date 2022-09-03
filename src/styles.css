@@ -74,7 +74,7 @@ img.displayed {
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 54px;
-  font-weight: 400;
+  
   line-height: 1;
 }
 .weather-temperature.units {
@@ -88,7 +88,7 @@ img.displayed {
   height: 64px;
   margin-right: 10px;
   margin-left: 20px;
-  margin-bottom:10px;
+  
 }
 
 
