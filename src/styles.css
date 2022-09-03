@@ -83,6 +83,10 @@ img.displayed {
   top: -28px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .weather-image {
   width: 64px;
   height: 64px;
