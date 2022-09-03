@@ -82,7 +82,7 @@ function weatherCondition(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
-}
+
 
 //input city
 
