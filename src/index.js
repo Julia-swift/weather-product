@@ -33,6 +33,8 @@ currentTime.innerHTML = `${time}`;
 function showFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temp");
+  celsius.classList.remove("active");
+  fahrenheit.classList.add("active");
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
@@ -40,6 +42,8 @@ function showFahrenheit(event) {
 function showCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temp");
+   celsius.classList.add("active");
+  fahrenheit.classList.remove("active");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
