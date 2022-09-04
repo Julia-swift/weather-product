@@ -51,11 +51,10 @@ li {
 .row {
   left: 50px;
 }
+
 img.displayed {
-  display: flex;
-  margin-right: 20px;
-  margin-left: auto;
-  margin-bottom: 0;
+ position: relative;
+ right: 7px;
 }
 
 .card {
