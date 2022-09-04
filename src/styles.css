@@ -98,11 +98,11 @@ a:hover{
 color:blue;}
 
 .weather-image {
-  width: 64px;
-  height: 64px;
-  margin-right: 10px;
-  margin-left: 20px;
-  
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 10px;
+  top: -30px;
 }
 
 
