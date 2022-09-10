@@ -16,13 +16,11 @@ ul {
 }
 
 li {
- 
-  color: #7c7c7c;
-  font-size: 24px;
-  font-size: 16px;
+  color: rgb(34, 34, 134);
+  font-size: 17px;
   line-height: 1;
   height: 19;
-  font-weight: 400;
+  font-weight: 300;
   list-style: none;
   margin-left: 30px;
 }
@@ -32,48 +30,24 @@ li {
   text-align: center;
 }
 
-
-
-.card-title {
-  text-align: center;
-  font-size: 12px;
- 
-  font-weight: light;
-  margin-bottom: 0;
-}
-
-.card-text {
-  text-align: center;
-  font-size: 12px;
- 
-}
-
-.row {
-  left: 50px;
-}
-
-img.displayed {
- position: relative;
- right: 7px;
-}
-
-.card {
-  border: transparent;
-}
-.col-sm-2 {
-  margin-top: 30px;
-}
 .weather-up {
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 670px;
+  max-width: 600px;
+  background-color: skyblue;
 }
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 58px;
   margin-top:2px;
+  line-height: 1;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 58px;
+  margin-top: 2px;
   line-height: 1;
 }
 .weather-temperature.units {
@@ -107,22 +81,37 @@ color:blue;}
 
 .city-row li {
   display: inline-block;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 20px;
   color: rgb(34, 34, 134);
   transition: color 100ms ease-in;
 }
 .city-row li:hover {
-  color: #6fbcfb;
+  color: #7c7c7c;
   cursor: pointer;
 }
 .open-source {
   text-align: center;
   font-size: 12px;
+  color: #7c7c7c;
 }
 
-.forecast-row {
-  margin-top: -50px;
+.weather-forecast {
+  margin-top: -30px;
+  text-align: center;
+  color: #000;
 }
 
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
