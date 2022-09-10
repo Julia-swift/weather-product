@@ -79,114 +79,32 @@
           <div class="col-6">
             <ul class="weatherCondition">
               <li >Humidity: <span id="humidity">52</span>%</li>
-              <li >Wind: <span id="wind">18</span>mph</li>
-              <li >Pressure: <span id="pressure">22</span>hPa</li>
+              <li >Wind: <span id="wind">18</span> mph</li>
+              <li >Pressure: <span id="pressure">22</span> mbar</li>
             </ul>  
           </div>
           
         </div>
         
-      <div class="forecast-row">  
-      <div class="row">
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Sun</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
+      <div class="weather-forecast" id="forecast">  
+        <div class="row">
+           <div class="col-2">
+             <div class="weather-forecast-date">Sun</div>
+              <img class="displayed"
                   src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                   alt=""
+                  width="54" 
                 />
-              </p>
-
-              <p class="card-text"><strong>32°</strong>/20°</p>
+              <div class="weather-forecast-temperatures">
+                <span class="weather-forecast-temperature-max"> 32° </span>
+                <span class="weather-forecast-temperature-min"> 20° </span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Mon</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
-                  src="https://ssl.gstatic.com/onebox/weather/64/rain_s_cloudy.png"
-                  alt=""
-                />
-              </p>
-
-              <p class="card-text"><strong>32°</strong>/20°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Tue</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
-                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                  alt=""
-                />
-              </p>
-
-              <p class="card-text"><strong>28°</strong>/19°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Wed</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
-                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                  alt=""
-                />
-              </p>
-
-              <p class="card-text"><strong>30°</strong>/19°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Thu</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
-                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                  alt=""
-                />
-              </p>
-
-              <p class="card-text"><strong>32°</strong>/20°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Fri</h5>
-
-              <p class="weather-icon">
-                <img class="displayed"
-                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                  alt=""
-                />
-              </p>
-
-              <p class="card-text"><strong>32°</strong>/20°</p>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>  
     </div>
+       
       
     <div>
       <p class="open-source"> <a href="https://github.com/Julia-swift/weather-product" target="_blank"><span class="open">Open-source code</span></a> by Yuliya Stryzhova</p>
